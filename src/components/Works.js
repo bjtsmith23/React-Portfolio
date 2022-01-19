@@ -1,10 +1,10 @@
 import React from 'react';
 import codeQuiz from "../images/CodeQuiz.png";
-import refactor from "../images/Refactor.png";
-import workday from "../images/WorkDayScheduler";
+import refactor from "../images/refactor.png";
+import workday from "../images/DayPlanner.png"; 
 
 function Works() {
-
+  return (
     <div class="Works" id="MyWorks">
     <div class="hw" id="Code">
       <a href="https://bjtsmith23.github.io/Code-Quiz/"/>
@@ -30,6 +30,7 @@ function Works() {
       <h3>Project 1</h3>
     </div>
 </div>
-
-
+  );
 }
+
+export default Works;
