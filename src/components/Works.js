@@ -2,13 +2,15 @@ import React from 'react';
 import codeQuiz from "../images/CodeQuiz.png";
 import refactor from "../images/refactor.png";
 import workday from "../images/DayPlanner.png"; 
+import critic from "../images/critic.png";
 
 function Works() {
   return (
     <div class="Works" id="MyWorks">
     <div class="hw" id="Code">
-      <a href="https://bjtsmith23.github.io/Code-Quiz/"/>
+      <a href="https://bjtsmith23.github.io/Code-Quiz/">
         <img src={codeQuiz} alt="Code Quiz Project"/>
+        </a>
       <h3>Code Quiz</h3>
     </div>
     <div class="hw" id="Refactor">
@@ -25,9 +27,9 @@ function Works() {
     </div>
     <div class="hw" id="Code">
       <a href="https://natpitt2393.github.io/Everyone-s-A-Critic/">
-        <img src="assets/images/critic.png"/>
+        <img src={critic} alt="Everyone Critic Project"/>
       </a>
-      <h3>Project 1</h3>
+      <h3>Everyone's a Critic</h3>
     </div>
 </div>
   );

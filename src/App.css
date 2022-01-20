@@ -47,3 +47,27 @@ p {
   margin-top: 25px;
 }
 
+.Works {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.yes {
+  border-radius: 20px;
+}
+
+
+footer {
+  margin-top: 300px;
+  background-color: aqua;
+}
+
+h4 {
+  text-align: center;
+}
