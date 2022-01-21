@@ -25,6 +25,15 @@ h2 {
   border-radius: 10px;
 }
 
+h3 {
+  text-align: center;
+}
+
+.workpics {
+  border: 7px outset darkcyan;
+  border-radius: 20px;
+}
+
 .portrait {
   margin-top: 25px;
   border-radius: 20px;
@@ -48,18 +57,26 @@ p {
 }
 
 .Works {
+  padding-top: 75px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  align-items: center;
+  background-color: lightcoral;
 }
 
 .container {
   display: flex;
   justify-content: center;
+  
 }
 
 .yes {
   border-radius: 20px;
+}
+
+.hw {
+  align-items: center;
 }
 
 

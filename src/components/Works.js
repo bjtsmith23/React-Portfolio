@@ -9,25 +9,25 @@ function Works() {
     <div class="Works" id="MyWorks">
     <div class="hw" id="Code">
       <a href="https://bjtsmith23.github.io/Code-Quiz/">
-        <img src={codeQuiz} alt="Code Quiz Project"/>
+        <img class="workpics" src={codeQuiz} alt="Code Quiz Project"/>
         </a>
       <h3>Code Quiz</h3>
     </div>
     <div class="hw" id="Refactor">
       <a href="https://bjtsmith23.github.io/Refactor/">
-        <img src={refactor} alt="Refactor Project"/>
+        <img class="workpics" src={refactor} alt="Refactor Project"/>
       </a>
       <h3>My Refactored Website</h3>
     </div>
     <div class="hw" id="Workday">
       <a href="https://bjtsmith23.github.io/Work-Day-Scheduler/">
-        <img src={workday} alt="Work Day Scheduler Project"/>
+        <img class="workpics" src={workday} alt="Work Day Scheduler Project"/>
       </a>
       <h3>Work Day Scheduler</h3>
     </div>
     <div class="hw" id="Code">
       <a href="https://natpitt2393.github.io/Everyone-s-A-Critic/">
-        <img src={critic} alt="Everyone Critic Project"/>
+        <img class="workpics" src={critic} alt="Everyone Critic Project"/>
       </a>
       <h3>Everyone's a Critic</h3>
     </div>
