@@ -1,18 +1,18 @@
 // import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
-import NavBar from './components/NavBar';
-import AboutMe from './components/AboutMe';
-import Works from './components/Works';
+import NavBar from './components/Navigation';
+import AboutMe from './components/pages/AboutMe';
+import Works from './components/pages/Portfolio';
 import Footer from './components/Footer';
 
 function App() {
   return (
     <>
     <Header/>
-    <NavBar/>
+    <Navigation/>
     <AboutMe/>
-    <Works/>
+    <Portfolio/>
     <Footer/>
     
     </>
