@@ -1,0 +1,30 @@
+/* #contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} */
+.containery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.feet {
+    align-items: center;
+}
+
+.yes {
+    height: 30px;
+    width: 30px;
+}
+
+.figcaption {
+    font-size: 20px;
+    text-align: center;
+}
+
+.figcaption {
+    font-size: 10px;
+    text-align: center;
+}

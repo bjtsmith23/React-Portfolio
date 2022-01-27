@@ -1,6 +1,7 @@
 import React from "react";
 import linkedIn from "../images/linkedin.jfif";
 import github from "../images/github.png";
+import './Footer.css';
 
 // import linkedin from "../images/linkedin.png";
 
@@ -9,9 +10,9 @@ function Footer() {
 
         <footer id="contact">
             
-        <div class="container">
+        <div class="containery">
 
-        <div>
+        <div class="feet">
           <a href="https://www.linkedin.com/in/brian-smith-092509103/" target="_blank">
               <img class="yes" src={linkedIn} alt="Linkedin Logo" />
               </a>

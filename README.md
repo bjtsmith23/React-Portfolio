@@ -21,6 +21,12 @@
   If you have any questions or would like to contact me, you can [email](mailto:bjtsmith23@gmail.com) me
   or check out my [GitHub](https://github.com/bjtsmith23).
 
+  ## Screenshots 
+
+  ![Home Page Image](./src/images/react1.png)
+
+  ![Portfolio Page Image](./src/images/react2.png)
+
 
 
 
