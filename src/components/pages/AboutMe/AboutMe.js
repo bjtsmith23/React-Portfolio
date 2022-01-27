@@ -1,12 +1,15 @@
 import React from "react";
-import portrait from "../../images/picofme.jpg";
+import portrait from "../../../images/picofme.jpg";
+import "./AboutMe.css"
+import Footer from "../../Footer";
 
-function AboutMe() {
+export default function AboutMe() {
   return (
-    <div>
+    <div class>
+      
+      <div class="aboutmeh">
       <h2 id="AboutMe">About Me</h2>
-      <div class="aboutContents">
-        <img class="portrait" src={portrait} alt="Me smiling" />
+        <img src={portrait} alt="Me smiling" />
 
         <p>
           I am from Little Silver New Jersey and I am looking to become a master
@@ -16,10 +19,9 @@ function AboutMe() {
           will succeed!!
         </p>
       </div>
-
-      <h2 class="work">My Works</h2>
-    </div>
+      <Footer/>
+        </div>
   );
 }
 
-export default AboutMe;
+

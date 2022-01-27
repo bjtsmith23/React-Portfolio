@@ -1,0 +1,25 @@
+* {
+    background-color: aquamarine;
+}
+
+
+h2 {
+    text-align: center;
+    width: 250px;
+}
+
+img {
+    border: 5px outset aqua;
+    border-radius: 20px;
+    height :350px;
+    width: 250px;
+}
+
+.aboutmeh {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+

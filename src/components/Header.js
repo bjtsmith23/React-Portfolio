@@ -9,15 +9,7 @@ function Header() {
           <Navigation handlePageChange={handlePageChange} currentPage={currentPage} />
     
     </header>
-    
-    
-    
-  
-        
-        
-        
-        
-      );
+    );
     }
 
 export default Header;
