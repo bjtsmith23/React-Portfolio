@@ -6,7 +6,7 @@ import workday from "../../../images/DayPlanner.png";
 import codeQuiz from "../../../images/CodeQuiz.png";
 import critic from "../../../images/critic.png";
 import foodfordays from "../../../images/foodfordays.png";
-
+import '../../../App.css';
 import Footer from "../../Footer";
 
 
@@ -40,6 +40,20 @@ export default function Projects(props) {
       description: "Desciption Here!!",
       gitHub: "https://github.com/bjtsmith23/Animal-Palace",
       deployed: "https://animal-palace.herokuapp.com/",
+    },
+    {
+      image: workday,
+      title: "Work Day Scheduler",
+      description: "Desciption Here!!",
+      gitHub: "https://github.com/bjtsmith23/Work-Day-Scheduler",
+      deployed: "https://bjtsmith23.github.io/Work-Day-Scheduler/",
+    },
+    {
+      image: workday,
+      title: "Work Day Scheduler",
+      description: "Desciption Here!!",
+      gitHub: "https://github.com/bjtsmith23/Work-Day-Scheduler",
+      deployed: "https://bjtsmith23.github.io/Work-Day-Scheduler/",
     },
   ];
   return (

@@ -29,10 +29,6 @@ h3 {
   text-align: center;
 }
 
-.workpics {
-  border: 7px outset darkcyan;
-  border-radius: 20px;
-}
 
 .portrait {
   margin-top: 25px;
@@ -56,35 +52,50 @@ p {
   margin-top: 25px;
 }
 
-.Works {
-  padding-top: 75px;
+
+
+h4 {
+  text-align: center;
+}
+
+.card {
+  /* max-height: 450px; */
+  /* margin: 10px; */
+  background-color: white;
+  border: 15px solid black;
+}
+
+/* .card-body {
+  padding: 10px;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
   align-items: center;
-  background-color: lightcoral;
-}
+  flex-direction: column;
+} */
 
-.container {
-  display: flex;
-  justify-content: center;
-  
+.card-text {
+  background-color: white;
+  width: auto;
 }
-
-.yes {
-  border-radius: 20px;
-}
-
-.hw {
-  align-items: center;
-}
-
 
 footer {
   margin-top: 300px;
   background-color: aqua;
 }
 
-h4 {
-  text-align: center;
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: white;
 }
+
+.body-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* button {
+  background-color: lightblue;
+} */
+
