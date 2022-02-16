@@ -3,11 +3,11 @@ import './Projects.css';
 import Project from '../../Project';
 import animalPalace from "../../../images/AnimalPalace.png";
 import workday from "../../../images/DayPlanner.png"; 
-import codeQuiz from "../../../images/CodeQuiz.png";
+// import codeQuiz from "../../../images/CodeQuiz.png";
 import critic from "../../../images/critic.png";
 import foodfordays from "../../../images/foodfordays.png";
-import '../../../App.css';
-import Footer from "../../Footer";
+// import '../../../App.css';
+// import Footer from "../../Footer";
 
 
 
@@ -16,44 +16,30 @@ export default function Projects(props) {
     {
       image: animalPalace,
       title: "Animal Palace",
-      description: "Desciption Here!!",
-      gitHub: "https://github.com/bjtsmith23/Animal-Palace",
+      description: "React, MongoDB/Mongoose, GraphQL, Node.js, Javascript, CSS, Express.js, Heroku, Stripe",
+      github: "https://github.com/bjtsmith23/Animal-Palace",
       deployed: "https://animal-palace.herokuapp.com/",
     },
     {
       image: workday,
       title: "Work Day Scheduler",
-      description: "Desciption Here!!",
-      gitHub: "https://github.com/bjtsmith23/Work-Day-Scheduler",
+      description: "HTML, CSS, jQuery, Moment.js, Bootstrap",
+      github: "https://github.com/bjtsmith23/Work-Day-Scheduler",
       deployed: "https://bjtsmith23.github.io/Work-Day-Scheduler/",
     },
     {
       image: foodfordays,
       title: "Food For Days",
-      description: "Desciption Here!!",
-      gitHub: "https://github.com/quynhndinh/Food-For-Days",
+      description: "HTML, CSS, Javascript, Express JS, Heroku",
+      github: "https://github.com/quynhndinh/Food-For-Days",
       deployed: "https://food-for-days.herokuapp.com/",
     },
     {
       image: critic,
       title: "Everyone's A Critic",
-      description: "Desciption Here!!",
-      gitHub: "https://github.com/bjtsmith23/Animal-Palace",
+      description: "HTML, CSS, Javascript, REST API",
+      github: "https://github.com/bjtsmith23/Animal-Palace",
       deployed: "https://animal-palace.herokuapp.com/",
-    },
-    {
-      image: workday,
-      title: "Work Day Scheduler",
-      description: "Desciption Here!!",
-      gitHub: "https://github.com/bjtsmith23/Work-Day-Scheduler",
-      deployed: "https://bjtsmith23.github.io/Work-Day-Scheduler/",
-    },
-    {
-      image: workday,
-      title: "Work Day Scheduler",
-      description: "Desciption Here!!",
-      gitHub: "https://github.com/bjtsmith23/Work-Day-Scheduler",
-      deployed: "https://bjtsmith23.github.io/Work-Day-Scheduler/",
     },
   ];
   return (
@@ -66,7 +52,7 @@ export default function Projects(props) {
               image={app.image}
               title={app.title}
               description={app.description}
-              gitHub={app.gitHub}
+              github={app.github}
               deployed={app.deployed}
             />
           );

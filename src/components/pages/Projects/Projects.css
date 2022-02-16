@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    justify-content: flex-end;
+    /* width: 700px; */
+}
+
+
+h5 {
+    margin-top: 5px;
+    background-color: lightgreen;
+    color: white;
+  }
+
+p {
+    background-color: lightgreen;
+}
+
+
+.buttongroup {
+    /* font-size: smaller; */
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightgreen;
+    margin-bottom: 5px;
+    /* max-width: auto;
+    height: auto; */
+    /* background-color: cyan; */
+    /* padding: 10px; */
+  }
+  
+  .card-text {
+    width: fit-content;
+    font-size: 13px;
+    border-radius: none;
+  }
+  
+  
+
+  .wor {
+    margin-bottom: 10px;
+    border: 4px outset white;
+    border-radius: 10px;
+  }
+  
+  

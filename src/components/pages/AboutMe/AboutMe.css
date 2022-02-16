@@ -2,13 +2,16 @@
     background-color: aquamarine;
 }
 
+.abo {
+    margin-top: 25px;
+}
 
 h2 {
     text-align: center;
     width: 250px;
 }
 
-img {
+.pict {
     border: 5px outset aqua;
     border-radius: 20px;
     height :350px;

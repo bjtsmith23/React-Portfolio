@@ -1,4 +1,5 @@
 #contact {
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -9,3 +10,28 @@
     height: 50px;
     width: 50px;
 }
+
+
+button a {
+    /* font-weight: bolder; */
+    color: black;
+    text-decoration: none;
+  }
+
+  .social {
+      margin-top: 25px;
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .qqq {
+      margin: 6px;
+  }
+
+  h7 {
+      margin-bottom: 15px;
+  }
+
+  img {
+      border: 3px solid black;
+  }

@@ -9,9 +9,9 @@ export default function AboutMe() {
       
       <div class="aboutmeh">
       <h2 id="AboutMe">About Me</h2>
-        <img src={portrait} alt="Me smiling" />
+        <img class="pict" src={portrait} alt="Me smiling" />
 
-        <p>
+        <p class="abo">
           I am from Little Silver New Jersey and I am looking to become a master
           of coding. I graduated Manhattan College in 2015 with a Finance Degree
           but I have now just realized I want to get into coding. I know it wont

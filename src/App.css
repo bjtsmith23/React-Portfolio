@@ -13,12 +13,6 @@ button {
   margin: 5px;
 } 
 
-button a {
-  font-weight: bolder;
-  color: white;
-  text-decoration: none;
-}
-
 h2 {
   text-align: center;
   background-color: aqua;
@@ -43,7 +37,8 @@ h3 {
   background-color: blue;
 }
 
-p {
+p { 
+  /* margin-top: 15px; */
   text-align: center;
   width: 500px;
   background-color: aqua;
@@ -53,49 +48,48 @@ p {
 }
 
 
-
 h4 {
   text-align: center;
 }
 
-.card {
-  /* max-height: 450px; */
-  /* margin: 10px; */
-  background-color: white;
-  border: 15px solid black;
-}
 
-/* .card-body {
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-} */
 
-.card-text {
-  background-color: white;
-  width: auto;
-}
 
 footer {
   margin-top: 300px;
   background-color: aqua;
 }
 
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  background-color: white;
-}
-
 .body-card {
+  width: auto;
+  background-color: lightgreen;
+  margin-top: 10px;
   display: flex;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-/* button {
-  background-color: lightblue;
-} */
 
+
+.wor {
+  /* margin-top: 10px; */
+  background-color: lightgreen;
+  margin-bottom: 10px;
+  border: 4px outset white;
+  border-radius: 17px;
+}
+
+.card-img-top {
+  /* margin-top: px; */
+  border-radius: 0px, 0px, 20px, 0px;
+  height: auto;
+  width: auto;
+}
+
+.ccc {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  
+}
