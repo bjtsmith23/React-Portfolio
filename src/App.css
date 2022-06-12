@@ -1,18 +1,3 @@
-.header {
-  background-color: aqua;
-}
-
-nav {
-  margin-top: -10px;
-  background-color: powderblue;
-  display: flex;
-  justify-content: flex-end;
-}
-
-button {
-  margin: 5px;
-} 
-
 h2 {
   text-align: center;
   background-color: aqua;
@@ -41,7 +26,6 @@ p {
   /* margin-top: 15px; */
   text-align: center;
   width: 500px;
-  background-color: aqua;
   padding: 15px;
   border-radius: 20px;
   margin-top: 25px;
@@ -70,26 +54,24 @@ footer {
   flex-direction: column;
 }
 
-
-
-.wor {
-  /* margin-top: 10px; */
-  background-color: lightgreen;
-  margin-bottom: 10px;
-  border: 4px outset white;
-  border-radius: 17px;
+span.navbar-brand {
+  font-size: 50px;
+  font-family: "Bellerose", sans-serif;
 }
 
-.card-img-top {
-  /* margin-top: px; */
-  border-radius: 0px, 0px, 20px, 0px;
-  height: auto;
-  width: auto;
+.nav-link {
+  font-size: 25px;
+  font-family: "Bellerose", sans-serif;
 }
 
-.ccc {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  
+.nav-link::before {
+  content: " ";
+}
+
+.navbar-light .navbar-nav a.nav-link.active {
+  color: #0d6efd;
+}
+
+.navbar-light .navbar-nav a.nav-link:hover {
+  color: #0d6efd;
 }

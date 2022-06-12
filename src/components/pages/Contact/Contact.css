@@ -9,6 +9,9 @@
 .logo {
     height: 50px;
     width: 50px;
+    border: 3px solid cyan;
+    border-radius: 15px;
+
 }
 
 
@@ -26,12 +29,9 @@ button a {
 
   .qqq {
       margin: 6px;
+      align-items: center;
   }
 
   h7 {
       margin-bottom: 15px;
-  }
-
-  img {
-      border: 3px solid black;
   }

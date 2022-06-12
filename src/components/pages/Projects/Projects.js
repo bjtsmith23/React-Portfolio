@@ -2,12 +2,10 @@ import React from 'react';
 import './Projects.css';
 import Project from '../../Project';
 import animalPalace from "../../../images/AnimalPalace.png";
-import workday from "../../../images/DayPlanner.png"; 
-// import codeQuiz from "../../../images/CodeQuiz.png";
+import workday from "../../../images/DayPlanner.png";
 import critic from "../../../images/critic.png";
 import foodfordays from "../../../images/foodfordays.png";
-// import '../../../App.css';
-// import Footer from "../../Footer";
+import { Container } from "react-bootstrap";
 
 
 
@@ -44,20 +42,17 @@ export default function Projects(props) {
   ];
   return (
 
-    <div className="container">
-      <div className="row">
-        {allProjects.map((app) => {
-          return (
-            <Project
-              image={app.image}
-              title={app.title}
-              description={app.description}
-              github={app.github}
-              deployed={app.deployed}
-            />
-          );
-        })}
-      </div>
+    <div className="container text-center">
+      <h1>Portfolio</h1>
+      <Container>
+        <div id="cards_landscape_wrap-2">
+          <div className="portfolio-container row">
+          {allProjects.map((project, index) => (
+              <Project key={index} {...project} />
+          ))}
+          </div>
+        </div>
+      </Container>
     </div>
   );
 }
